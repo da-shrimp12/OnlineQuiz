@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 5, 2021, 3:21:57 PM
+    Author     : DELL
+*/
+.main table tr td:first-child {
+    width: 90px;
+}
+.main table tr td input {
+    width: 190.8px;
+}
+.main form button {
+    margin-left: 5%;
+}
+
+

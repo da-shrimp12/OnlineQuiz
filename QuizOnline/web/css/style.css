@@ -1,0 +1,351 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 4, 2021, 8:03:36 PM
+    Author     : DELL
+*/
+*{	
+    margin:0px;
+    padding:0px;
+}
+
+.container {
+    width: 768px;
+    height: 500px;
+    background-image: url(../images/bg.jpg);
+    margin-left:auto;
+    margin-right: auto;
+    padding-top:10px;
+}
+.header{
+    width: 700px;
+    height:19px;
+    background-image: url(../images/top_box.gif);
+    margin-left:auto;
+    margin-right: auto;
+}
+.container .menu{
+    width: 700px;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: white;
+    position:relative;
+}
+.menu img {
+    text-align: center;
+    margin-left: 18px;
+}
+.menu .all_menu{
+	margin-left: 50px;
+    width: 700px;
+    position:absolute;
+    margin-top:-40px;
+    text-align: left;
+}
+.all_menu a {
+    color:#696058a6;
+    text-decoration: none;
+    padding-right: 8%;
+    font-weight: bold;
+}
+
+.all_menu a:hover{
+	color: #696058;
+}
+
+.main {
+    width: 700px;
+    height: 80%;
+    background-color: white;
+    margin-left:auto;
+    margin-right: auto;
+}
+.mai a:active{
+	color: #0000EE;
+}
+.main h3{
+    padding-top:30px;
+    margin-left: 45px;
+    color:blue;
+    padding-bottom: 20px;
+}
+.main form {
+    padding-left:45px;
+}
+.main form table td{
+    color: teal;
+}
+
+
+/*start quiz page*/
+.main .title{
+    font-size: 18px;
+    color:teal;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+.main .user{
+	padding-right: 50px;
+    color:blue;
+}
+.main .date{
+	margin-left: auto;
+    color:blue;
+}
+.main form input{
+    margin-left:5px;
+}
+.main form{
+    margin-top:-15px;
+}
+.main form button{
+    margin-left:42%;
+    font-weight: bold;
+    margin-top:5px;
+    font-size: 20px;
+    margin-top:8px;
+}
+/*take quiz page*/
+.main .timer{
+    margin-left:312px;
+}
+.main .timer span{
+    color:red;
+}
+.main .questionx{
+    width: 85%;
+    height: auto;
+    color:teal;
+    font-size: 18px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.main table tr td input {
+    /*width: 12.8px;*/
+}
+
+.main table {
+    /*    width: 85%;
+        height: auto;
+        margin-left:auto;
+        margin-right: auto;*/
+    color:teal;
+    padding-top:15px;
+}
+
+.main span{
+	margin-left: 45px;
+    color: red;
+    font-size: 20px;
+}
+
+.main table tr td:first-child{
+    width: 12.8px;
+}
+
+.main .containButton{
+    margin-left:0px;
+}
+
+form .back{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    padding:2px;
+    border:1px solid black;
+    margin-left: 32%;
+    position: relative;
+    left:42%;
+}
+
+/*result result page*/
+.main .title a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    padding:2px;
+    border:1px solid black;
+    background-color: gainsboro;   
+}
+.title .score{
+    color:blue;
+}
+
+/*make quiz page*/
+.main .make_quiz{
+    color:teal;
+    padding-top: 50px;
+    font-size: 16px;
+    margin-left:5%;
+}
+
+.main_makeQuiz{
+    padding-bottom: 12px;
+}
+
+/*.make_quiz .input:read-only {
+  background-color: gray;
+}*/
+
+.make_quiz tr td {
+    width: 90%;
+    height:40px;
+}
+
+.make_quiz tr td textarea {
+    width:90%;
+    height:100%;
+	resize: none;
+}
+
+.make_quiz tr td a{
+	float: left;
+	color: #0000EE;
+	margin-right: 50px;
+	text-decoration: none;
+}
+.make_quiz tr td a:active{
+	color: #0000EE;
+}
+
+.main .question{
+    width: 90%;
+    height: 80px;
+}
+
+.main tr td input{
+    margin-left: 10px;
+}
+.main .save{
+    margin-left: 0px;
+}
+
+/*Managemen Quiz Page*/ 
+.main .manage_quiz{
+    color:teal;
+    padding-top:30px;
+    font-size: 16px;
+    margin-left:5%;
+    width: 90%;
+}
+.manage_quiz .manage_row .mange_d{
+    padding-left:30px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+.manage_quiz .text{
+    width: 482px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.text a{
+	color: teal; 
+	text-decoration: none;
+}
+.text a:hover{
+	text-decoration: underline;
+}
+.manageContainer{
+    background-image: url(../images/bgResize.jpg);
+    height: auto;
+    padding-top:10px;
+    padding-bottom: 20px;
+
+}
+/*register page*/
+.main table .selectItem{
+    margin-left: 10px;
+    width: 120px;
+}
+/*detail page*/
+.main .detail_quiz{
+    color:teal;
+    /*padding-top: 10px;*/
+	padding-top: unset;
+    font-size: 16px;
+    margin-left:5%;
+}
+
+.detail .input:read-only {
+	width: auto;
+	background-color: gray;
+}
+
+.detail_quiz tr td {
+    width: 90%;
+    height:40px;
+}
+
+.detail_quiz tr td textarea {
+    width:90%;
+    height:100%;
+	resize: none;
+}
+
+.detail_quiz tr td a{
+	float: left;
+	color: #0000EE;
+	margin-right: 50px;
+	text-decoration: none;
+}
+.detail_quiz tr td a:hover{
+	color: #ff0033;
+	text-decoration: underline;
+}
+
+.main .question{
+    width: 90%;
+    height: 80px;
+}
+
+.main tr td input{
+    margin-left: 10px;
+}
+.main .save{
+    margin-left: 0px;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+	.main{
+		/*text-transform: uppercase;*/
+		font-size: large;
+	}
+    .all_menu a {
+        /*text-transform: uppercase;*/
+		font-size: large;
+    }
+    .main table tr td input {
+        /*text-transform: uppercase;*/
+		font-size: large;
+    }
+    .all_menu a {
+        padding-right: 4%;
+    }
+
+    .main form {
+        margin-top: -12px;
+    }
+
+	.detail_quiz tr td textarea {
+		/*text-transform: uppercase;*/
+		font-size: large;
+	}
+}
+
+
+
+
+
+
+
+
